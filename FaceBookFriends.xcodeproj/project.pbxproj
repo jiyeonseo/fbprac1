@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADF584B15EF529B0075270C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF584A15EF529B0075270C /* UIKit.framework */; };
+		3ADF584D15EF529B0075270C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF584C15EF529B0075270C /* Foundation.framework */; };
+		3ADF584F15EF529B0075270C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF584E15EF529B0075270C /* CoreGraphics.framework */; };
+		3ADF585515EF529B0075270C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF585315EF529B0075270C /* InfoPlist.strings */; };
+		3ADF585715EF529B0075270C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF585615EF529B0075270C /* main.m */; };
+		3ADF585B15EF529B0075270C /* FBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF585A15EF529B0075270C /* FBFAppDelegate.m */; };
+		3ADF585E15EF529B0075270C /* FBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF585D15EF529B0075270C /* FBFViewController.m */; };
+		3ADF586115EF529B0075270C /* FBFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF585F15EF529B0075270C /* FBFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ADF584615EF529B0075270C /* FaceBookFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADF584A15EF529B0075270C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3ADF584C15EF529B0075270C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ADF584E15EF529B0075270C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ADF585215EF529B0075270C /* FaceBookFriends-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBookFriends-Info.plist"; sourceTree = "<group>"; };
+		3ADF585415EF529B0075270C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ADF585615EF529B0075270C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ADF585815EF529B0075270C /* FaceBookFriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceBookFriends-Prefix.pch"; sourceTree = "<group>"; };
+		3ADF585915EF529B0075270C /* FBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFAppDelegate.h; sourceTree = "<group>"; };
+		3ADF585A15EF529B0075270C /* FBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFAppDelegate.m; sourceTree = "<group>"; };
+		3ADF585C15EF529B0075270C /* FBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFViewController.h; sourceTree = "<group>"; };
+		3ADF585D15EF529B0075270C /* FBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFViewController.m; sourceTree = "<group>"; };
+		3ADF586015EF529B0075270C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FBFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADF584315EF529B0075270C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADF584B15EF529B0075270C /* UIKit.framework in Frameworks */,
+				3ADF584D15EF529B0075270C /* Foundation.framework in Frameworks */,
+				3ADF584F15EF529B0075270C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADF583B15EF529B0075270C = {
+			isa = PBXGroup;
+			children = (
+				3ADF585015EF529B0075270C /* FaceBookFriends */,
+				3ADF584915EF529B0075270C /* Frameworks */,
+				3ADF584715EF529B0075270C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADF584715EF529B0075270C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADF584615EF529B0075270C /* FaceBookFriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADF584915EF529B0075270C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ADF584A15EF529B0075270C /* UIKit.framework */,
+				3ADF584C15EF529B0075270C /* Foundation.framework */,
+				3ADF584E15EF529B0075270C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ADF585015EF529B0075270C /* FaceBookFriends */ = {
+			isa = PBXGroup;
+			children = (
+				3ADF585915EF529B0075270C /* FBFAppDelegate.h */,
+				3ADF585A15EF529B0075270C /* FBFAppDelegate.m */,
+				3ADF585C15EF529B0075270C /* FBFViewController.h */,
+				3ADF585D15EF529B0075270C /* FBFViewController.m */,
+				3ADF585F15EF529B0075270C /* FBFViewController.xib */,
+				3ADF585115EF529B0075270C /* Supporting Files */,
+			);
+			path = FaceBookFriends;
+			sourceTree = "<group>";
+		};
+		3ADF585115EF529B0075270C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADF585215EF529B0075270C /* FaceBookFriends-Info.plist */,
+				3ADF585315EF529B0075270C /* InfoPlist.strings */,
+				3ADF585615EF529B0075270C /* main.m */,
+				3ADF585815EF529B0075270C /* FaceBookFriends-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADF584515EF529B0075270C /* FaceBookFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADF586415EF529B0075270C /* Build configuration list for PBXNativeTarget "FaceBookFriends" */;
+			buildPhases = (
+				3ADF584215EF529B0075270C /* Sources */,
+				3ADF584315EF529B0075270C /* Frameworks */,
+				3ADF584415EF529B0075270C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookFriends;
+			productName = FaceBookFriends;
+			productReference = 3ADF584615EF529B0075270C /* FaceBookFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADF583D15EF529B0075270C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBF;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jiyeon Seo";
+			};
+			buildConfigurationList = 3ADF584015EF529B0075270C /* Build configuration list for PBXProject "FaceBookFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3ADF583B15EF529B0075270C;
+			productRefGroup = 3ADF584715EF529B0075270C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADF584515EF529B0075270C /* FaceBookFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADF584415EF529B0075270C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADF585515EF529B0075270C /* InfoPlist.strings in Resources */,
+				3ADF586115EF529B0075270C /* FBFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADF584215EF529B0075270C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADF585715EF529B0075270C /* main.m in Sources */,
+				3ADF585B15EF529B0075270C /* FBFAppDelegate.m in Sources */,
+				3ADF585E15EF529B0075270C /* FBFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3ADF585315EF529B0075270C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADF585415EF529B0075270C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3ADF585F15EF529B0075270C /* FBFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADF586015EF529B0075270C /* en */,
+			);
+			name = FBFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ADF586215EF529B0075270C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ADF586315EF529B0075270C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADF586515EF529B0075270C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBookFriends/FaceBookFriends-Prefix.pch";
+				INFOPLIST_FILE = "FaceBookFriends/FaceBookFriends-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3ADF586615EF529B0075270C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBookFriends/FaceBookFriends-Prefix.pch";
+				INFOPLIST_FILE = "FaceBookFriends/FaceBookFriends-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADF584015EF529B0075270C /* Build configuration list for PBXProject "FaceBookFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADF586215EF529B0075270C /* Debug */,
+				3ADF586315EF529B0075270C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADF586415EF529B0075270C /* Build configuration list for PBXNativeTarget "FaceBookFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADF586515EF529B0075270C /* Debug */,
+				3ADF586615EF529B0075270C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADF583D15EF529B0075270C /* Project object */;
+}
