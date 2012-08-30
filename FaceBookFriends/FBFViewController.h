@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <FacebookSDK/FacebookSDK.h>
 @interface FBFViewController : UIViewController
 {
     
 }
-@property (nonatomic, strong) IBOutlet UIImageView *userImageView;
+@property (nonatomic, strong) IBOutlet FBProfilePictureView *userImageView;
 @property (nonatomic, strong) IBOutlet UILabel *userName;
+
+
+
+
 @end

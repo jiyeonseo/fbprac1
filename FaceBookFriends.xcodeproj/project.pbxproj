@@ -15,6 +15,9 @@
 		3ADF585B15EF529B0075270C /* FBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF585A15EF529B0075270C /* FBFAppDelegate.m */; };
 		3ADF585E15EF529B0075270C /* FBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF585D15EF529B0075270C /* FBFViewController.m */; };
 		3ADF586115EF529B0075270C /* FBFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF585F15EF529B0075270C /* FBFViewController.xib */; };
+		3ADF587615EF59E50075270C /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF587415EF59E50075270C /* FacebookSDKResources.bundle */; };
+		3ADF587715EF59E50075270C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF587515EF59E50075270C /* FacebookSDK.framework */; };
+		3ADF587915EF5B5F0075270C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF587815EF5B5F0075270C /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		3ADF585C15EF529B0075270C /* FBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFViewController.h; sourceTree = "<group>"; };
 		3ADF585D15EF529B0075270C /* FBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFViewController.m; sourceTree = "<group>"; };
 		3ADF586015EF529B0075270C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FBFViewController.xib; sourceTree = "<group>"; };
+		3ADF587415EF59E50075270C /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		3ADF587515EF59E50075270C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		3ADF587815EF5B5F0075270C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADF587915EF5B5F0075270C /* libsqlite3.dylib in Frameworks */,
 				3ADF584B15EF529B0075270C /* UIKit.framework in Frameworks */,
 				3ADF584D15EF529B0075270C /* Foundation.framework in Frameworks */,
 				3ADF584F15EF529B0075270C /* CoreGraphics.framework in Frameworks */,
+				3ADF587715EF59E50075270C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +58,7 @@
 		3ADF583B15EF529B0075270C = {
 			isa = PBXGroup;
 			children = (
+				3ADF587815EF5B5F0075270C /* libsqlite3.dylib */,
 				3ADF585015EF529B0075270C /* FaceBookFriends */,
 				3ADF584915EF529B0075270C /* Frameworks */,
 				3ADF584715EF529B0075270C /* Products */,
@@ -67,6 +76,8 @@
 		3ADF584915EF529B0075270C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3ADF587415EF59E50075270C /* FacebookSDKResources.bundle */,
+				3ADF587515EF59E50075270C /* FacebookSDK.framework */,
 				3ADF584A15EF529B0075270C /* UIKit.framework */,
 				3ADF584C15EF529B0075270C /* Foundation.framework */,
 				3ADF584E15EF529B0075270C /* CoreGraphics.framework */,
@@ -152,6 +163,7 @@
 			files = (
 				3ADF585515EF529B0075270C /* InfoPlist.strings in Resources */,
 				3ADF586115EF529B0075270C /* FBFViewController.xib in Resources */,
+				3ADF587615EF59E50075270C /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,10 @@
 		3ADF586515EF529B0075270C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBookFriends/FaceBookFriends-Prefix.pch";
 				INFOPLIST_FILE = "FaceBookFriends/FaceBookFriends-Info.plist";
@@ -253,6 +269,10 @@
 		3ADF586615EF529B0075270C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBookFriends/FaceBookFriends-Prefix.pch";
 				INFOPLIST_FILE = "FaceBookFriends/FaceBookFriends-Info.plist";
